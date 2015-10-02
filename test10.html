@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml-transitional.dtd">
+    
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <title>Testing an Imagemap</title>
+</head>
+<body>
+    <h1>Testing an Imagemap</h1>
+    <p style="text-align: center">Click pn a logo to go to the county's web site.<br/>
+    <img src="image/picture.JPG" usemap="#countymap"
+     width="200" height="200"
+    alt="Native Peoples Census Map" /></p>
+    
+    <map name="countymap" id="countymap">
+        <area shape="rect" coords="0,0,99,99"
+              href="https://www.baidu.com/"
+              alt="top left" />
+        <area shape="rect" coords="100,0,199,99"
+              href="http://movie.douban.com/"
+              alt="top right" />
+        <area shape="rect" coords="0,100,99,199"
+              href="http://email.163.com/"
+              alt="bottom left" />
+        <area shape="rect" coords="100,100,199,199"
+              href="https://github.com/"
+              alt="bottom right" />
+    </map>
+</body>
+</html>
